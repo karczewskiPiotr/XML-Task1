@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<electronics-shop>
+    <authors-information>
+        <author>
+            <first-name>Łukasz</first-name>
+            <last-name>Starosta</last-name>
+            <studentsID>217862</studentsID>
+        </author>
+        <author>
+            <first-name>Piotr</first-name>
+            <last-name>Karczewski</last-name>
+            <studentsID>217846</studentsID>
+        </author>
+    </authors-information>
+
+    <manufacturers>
+        <manufacturer manufacturer-id=""></manufacturer>
+        <manufacturer manufacturer-id=""></manufacturer>
+        <manufacturer manufacturer-id=""></manufacturer>
+        <manufacturer manufacturer-id=""></manufacturer>
+        <manufacturer manufacturer-id=""></manufacturer>
+        <manufacturer manufacturer-id=""></manufacturer>
+        <manufacturer manufacturer-id=""></manufacturer>
+    </manufacturer>
+
+    <categories>
+        <category category-id=""></category>
+        <category category-id=""></category>
+        <category category-id=""></category>
+        <category category-id=""></category>
+        <category category-id=""></category>
+        <category category-id=""></category>
+        <category category-id=""></category>
+        <category category-id=""></category>
+    </categories>
+
+    <products-list>
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Samsung monitor siuba duba</name>
+            <price currency="pln">200</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">2</warranty>
+            <producent location="Taiwan">Samsung</producent>
+            <specification>
+                <weight weight-unit="g">650</weight>
+                <display-size display_size-unit="inch">28</display-size>
+                <color>Black</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Samsung monitor siuba duba</name>
+            <price currency="pln">200</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">2</warranty>
+            <producent location="Taiwan">Samsung</producent>
+            <specification>
+                <weight weight-unit="g">650</weight>
+                <display-size display_size-unit="inch">28</display-size>
+                <color>Black</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Samsung monitor siuba duba</name>
+            <price currency="pln">200</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">2</warranty>
+            <producent location="Taiwan">Samsung</producent>
+            <specification>
+                <weight weight-unit="g">650</weight>
+                <display-size display_size-unit="inch">28</display-size>
+                <color>Black</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Samsung monitor siuba duba</name>
+            <price currency="pln">200</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">2</warranty>
+            <producent location="Taiwan">Samsung</producent>
+            <specification>
+                <weight weight-unit="g">650</weight>
+                <display-size display_size-unit="inch">28</display-size>
+                <color>Black</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Razer mysz siuba duba</name>
+            <price currency="pln">300</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">1</warranty>
+            <producent location="dzies tam">Razer</producent>
+            <specification>
+                <weight weight-unit="g">150</weight>
+                <dpi>sto milionuw</dpi>
+                <color>Green</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Razer mysz siuba duba</name>
+            <price currency="pln">300</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">1</warranty>
+            <producent location="dzies tam">Razer</producent>
+            <specification>
+                <weight weight-unit="g">150</weight>
+                <dpi>sto milionuw</dpi>
+                <color>Green</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Razer mysz siuba duba</name>
+            <price currency="pln">300</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">1</warranty>
+            <producent location="dzies tam">Razer</producent>
+            <specification>
+                <weight weight-unit="g">150</weight>
+                <dpi>sto milionuw</dpi>
+                <color>Green</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Razer mysz siuba duba</name>
+            <price currency="pln">300</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">1</warranty>
+            <producent location="dzies tam">Razer</producent>
+            <specification>
+                <weight weight-unit="g">150</weight>
+                <dpi>sto milionuw</dpi>
+                <color>Green</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+
+        <product product-id="" category-id="" manufacturer-id="">
+            <name>Klawiatura siuba duba</name>
+            <price currency="pln">250</price>
+            <on-sale></on-sale>
+            <warranty time-unit="years">1</warranty>
+            <producent location="dzies tam 2">klawiaturnicy</producent>
+            <specification>
+                <weight weight-unit="g">700</weight>
+                <guzikuw>pelno</guzikuw>
+                <color>Jaki sobie zarzyszysz</color>
+            </specification>
+            <user-rating></user-rating>
+            <in-stock></in-stock>
+            <free-delivery></free-delivery>
+            <additional-information></additional-information>
+        </product>
+    <products-list>
+</electronics-shop>
