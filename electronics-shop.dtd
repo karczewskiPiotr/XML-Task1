@@ -1,0 +1,48 @@
+<!ELEMENT electronics-shop (authors-information, manufacturers, categories, products-list)>
+
+<!ELEMENT authors-information (author+)>
+<!ELEMENT author (first-name, last-name, studentsID)>
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT studentsID (#PCDATA)>
+
+<!ELEMENT manufacturers (manufacturer+)>
+<!ELEMENT manufacturer (name, headquarters, factory)>
+<!ATTLIST manufacturer manufacturer-id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT headquarters (location, cuntry)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+
+<!ELEMENT categories (category)>
+<!ELEMENT category (#PCDATA)>
+<!ATTLIST category category-id ID #REQUIRED>
+
+<!ELEMENT products-list (product+)>
+<!ELEMENT procuct (name, price, relese-date, warranty, specification, user-rating, in-stock, free-delivery, additional-information*)>
+<!ATTLIST product product-id ID #REQUIRED>
+<!ATTLIST product category-id IDREF #REQUIRED>
+<!ATTLIST product manufacturer-id IDREF #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency CDATA #FIXED "pln">
+<!ATTLIST price on-sale CDATA #REQUIRED>
+<!ELEMENT relese-date (day, month, year)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT warranty (#PCDATA)>
+<!ATTLIST warranty time-unit CDATA #FIXED "years">
+<!ELEMENT specification (weight, display-size*, color, switch*, sensor*)>
+<!ELEMENT weight (#PCDATA)>
+<!ATTLIST weight weight-unit CDATA #FIXED "g">
+<!ELEMENT display-size (#PCDATA)>
+<!ATTLIST display-size display_size-unir CDATA #REQUIRED>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT switch (#PCDATA)>
+<!ELEMENT sensor (#PCDATA)>
+<!ELEMENT user-rating (#PCDATA)>
+<!ELEMENT in-stock (#PCDATA)>
+<!ELEMENT free-delivery (#PCDATA)>
+<!ELEMENT additional-information (#PCDATA)>
