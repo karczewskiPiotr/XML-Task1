@@ -1,523 +1,506 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="electronics-shop.css"?>
 <!DOCTYPE electronics-shop SYSTEM "electronics-shop.dtd">
-
 <electronics-shop>
-  <authors-information>
-    <author>
-      <first-name>Łukasz</first-name>
-      <last-name>Starosta</last-name>
-      <studentsID>217862</studentsID>
-    </author>
-    <author>
-      <first-name>Piotr</first-name>
-      <last-name>Karczewski</last-name>
-      <studentsID>217846</studentsID>
-    </author>
-  </authors-information>
-
-  <manufacturers>
-    <manufacturer manufacturer-id="samsung">
-      <name>Samsung</name>
-      <headquarters>
-        <location>Seul</location>
-        <country>South Korea</country>
-      </headquarters>
-      <factory>Taiwan</factory>
-    </manufacturer>
-    <manufacturer manufacturer-id="apple">
-      <name>Apple</name>
-      <headquarters>
-        <location>Apple Park</location>
-        <country>United States</country>
-      </headquarters>
-      <factory>China</factory>
-    </manufacturer>
-    <manufacturer manufacturer-id="oneplus">
-      <name>OnePlus</name>
-      <headquarters>
-        <location>Shenzen</location>
-        <country>China</country>
-      </headquarters>
-      <factory>Taiwan</factory>
-    </manufacturer>
-    <manufacturer manufacturer-id="razer">
-      <name>Razer</name>
-      <headquarters>
-        <location>San Francisko</location>
-        <country>United States</country>
-      </headquarters>
-      <factory>China</factory>
-    </manufacturer>
-    <manufacturer manufacturer-id="acer">
-      <name>Acer</name>
-      <headquarters>
-        <location>New Taipei</location>
-        <country>China</country>
-      </headquarters>
-      <factory>China</factory>
-    </manufacturer>
-    <manufacturer manufacturer-id="asus">
-      <name>Asus</name>
-      <headquarters>
-        <location>Beitou</location>
-        <country>China</country>
-      </headquarters>
-      <factory>Taiwan</factory>
-    </manufacturer>
-    <manufacturer manufacturer-id="dell">
-      <name>Dell</name>
-      <headquarters>
-        <location>Round Rock</location>
-        <country>United States</country>
-      </headquarters>
-    </manufacturer>
-  </manufacturers>
-
-  <categories>
-    <category category-id="notebook">Notebook</category>
-    <category category-id="smartphone">Smartphone</category>
-    <category category-id="tv">TV</category>
-    <category category-id="monitor">Monitor</category>
-    <category category-id="accessory">Accesory</category>
-    <category category-id="keyboard">Keyboard</category>
-    <category category-id="mouse">Mouse</category>
-    <category category-id="hoverboard">Hoverboard</category>
-  </categories>
-
-  <products-list>
-    <product product-id="50" category-id="notebook" manufacturer-id="acer">
-      <name>Acer Swift 3</name>
-      <price currency="pln" on-sale="no">2000</price>
-      <release-date>
-        <day>23</day>
-        <month>1</month>
-        <year>2017</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">1200</weight>
-        <display-size display_size-unit="inch">13.3</display-size>
-        <color>Silver</color>
-      </specification>
-      <user-rating>4</user-rating>
-      <in-stock>23</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="51" category-id="notebook" manufacturer-id="apple">
-      <name>Apple MacBook Pro</name>
-      <price currency="pln" on-sale="yes">3699</price>
-      <release-date>
-        <day>3</day>
-        <month>4</month>
-        <year>2018</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">1050</weight>
-        <display-size display_size-unit="inch">15</display-size>
-        <color>Space Gray</color>
-      </specification>
-      <user-rating>4.5</user-rating>
-      <in-stock>1305</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information>Version with US keyboard layout.</additional-information>
-    </product>
-
-    <product product-id="52" category-id="smartphone" manufacturer-id="samsung">
-      <name>Samsung Galaxy S9 Plus</name>
-      <price currency="pln" on-sale="no">3299</price>
-      <release-date>
-        <day>12</day>
-        <month>11</month>
-        <year>2018</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">650</weight>
-        <display-size display_size-unit="inch">6.7</display-size>
-        <color>Midnight Black</color>
-      </specification>
-      <user-rating>4.7</user-rating>
-      <in-stock>784</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information>Free wireless charger with every order.</additional-information>
-    </product>
-
-    <product product-id="53" category-id="smartphone" manufacturer-id="apple">
-      <name>Apple IPhone X</name>
-      <price currency="pln" on-sale="no">3893</price>
-      <release-date>
-        <day>14</day>
-        <month>6</month>
-        <year>2018</year>
-      </release-date>
-      <warranty time-unit="years">3</warranty>
-      <specification>
-        <weight weight-unit="g">740</weight>
-        <display-size display_size-unit="inch">5.8</display-size>
-        <color>Rose Gold</color>
-      </specification>
-      <user-rating>4.4</user-rating>
-      <in-stock>2154</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="54" category-id="notebook" manufacturer-id="dell">
-      <name>Dell Inspiron 5379</name>
-      <price currency="pln" on-sale="yes">3259</price>
-      <release-date>
-        <day>2</day>
-        <month>3</month>
-        <year>2017</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">1230</weight>
-        <display-size display_size-unit="inch">13.3</display-size>
-        <color>Matte Grey</color>
-      </specification>
-      <user-rating>4.1</user-rating>
-      <in-stock>521</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information>Version with touchscreen.</additional-information>
-    </product>
-
-    <product product-id="55" category-id="keyboard" manufacturer-id="razer">
-      <name>Razer Blackwidow Chroma</name>
-      <price currency="pln" on-sale="no">549</price>
-      <release-date>
-        <day>12</day>
-        <month>10</month>
-        <year>2016</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">970</weight>
-        <color>Black</color>
-        <switch>Cherry MX Silent</switch>
-      </specification>
-      <user-rating>4.9</user-rating>
-      <in-stock>325</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="56" category-id="monitor" manufacturer-id="Samsung">
-      <name>Samsung Curved LCD24IPSFHD</name>
-      <price currency="pln" on-sale="yes">899.98</price>
-      <release-date>
-        <day>22</day>
-        <month>7</month>
-        <year>2016</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">1321</weight>
-        <display-size display_size-unit="inch">23.4</display-size>
-        <color>Black</color>
-      </specification>
-      <user-rating>3.8</user-rating>
-      <in-stock>134</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information>Ex-display product.</additional-information>
-    </product>
-
-    <product product-id="57" category-id="tv" manufacturer-id="samsung">
-      <name>Samsung QLED UE554K</name>
-      <price currency="pln" on-sale="no">5698.78</price>
-      <release-date>
-        <day>3</day>
-        <month>2</month>
-        <year>2016</year>
-      </release-date>
-      <warranty time-unit="years">3</warranty>
-      <specification>
-        <weight weight-unit="g">3500</weight>
-        <display-size display_size-unit="inch">55</display-size>
-        <color>Silver</color>
-      </specification>
-      <user-rating>4.2</user-rating>
-      <in-stock>243</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information>HDR capable.</additional-information>
-    </product>
-
-    <product product-id="58" category-id="monitor" manufacturer-id="asus">
-      <name>Asus VZ27VQ</name>
-      <price currency="pln" on-sale="yes">829.99</price>
-      <release-date>
-        <day>1</day>
-        <month>8</month>
-        <year>2015</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">2000</weight>
-        <display-size display_size-unit="inch">27</display-size>
-        <color>White</color>
-      </specification>
-      <user-rating>3.6</user-rating>
-      <in-stock>57</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information>Stand with height and width adjustment.</additional-information>
-    </product>
-
-    <product product-id="59" category-id="mouse" manufacturer-id="razer">
-      <name>Razer Mamba Chroma</name>
-      <price currency="pln" on-sale="no">279.49</price>
-      <release-date>
-        <day>24</day>
-        <month>10</month>
-        <year>2013</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">98</weight>
-        <color>Black</color>
-        <sensor>Optical</sensor>
-      </specification>
-      <user-rating>3.9</user-rating>
-      <in-stock>34</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="60" category-id="keyboard" manufacturer-id="asus">
-      <name>Asus ROG Strix Flare</name>
-      <price currency="pln" on-sale="yes">359.98</price>
-      <release-date>
-        <day>5</day>
-        <month>12</month>
-        <year>2016</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">1221</weight>
-        <color>White</color>
-      </specification>
-      <user-rating>4.3</user-rating>
-      <in-stock>249</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="61" category-id="smartphone" manufacturer-id="oneplus">
-      <name>OnePlus 6</name>
-      <price currency="pln" on-sale="yes">2400</price>
-      <release-date>
-        <day>2</day>
-        <month>6</month>
-        <year>2018</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">800</weight>
-        <display-size display_size-unit="inch">6.3</display-size>
-        <color>Midnight Black</color>
-      </specification>
-      <user-rating>4.5</user-rating>
-      <in-stock>721</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information>Car Dash charger included with every order.</additional-information>
-    </product>
-
-    <product product-id="s62" category-id="smartphone" manufacturer-id="oneplus">
-      <name>Oneplus 3</name>
-      <price currency="pln" on-sale="no">1799</price>
-      <release-date>
-        <day>11</day>
-        <month>7</month>
-        <year>2016</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">821</weight>
-        <display-size display_size-unit="inch">5.5</display-size>
-        <color>Silver</color>
-      </specification>
-      <user-rating>4.7</user-rating>
-      <in-stock>24</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information>Flagship killer of the year 2016.</additional-information>
-    </product>
-
-    <product product-id="63" category-id="accesory" manufacturer-id="Apple">
-      <name>Leather Case for Iphone X</name>
-      <price currency="pln" on-sale="yes"></price>
-      <release-date>
-        <day>23</day>
-        <month>11</month>
-        <year>2018</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">95</weight>
-        <color>Brown</color>
-      </specification>
-      <user-rating>4.1</user-rating>
-      <in-stock>113</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="64" category-id="accessory" manufacturer-id="acer">
-      <name>Materil Laptop Pouch</name>
-      <price currency="pln" on-sale="no">79.98</price>
-      <release-date>
-        <day>1</day>
-        <month>3</month>
-        <year>2014</year>
-      </release-date>
-      <warranty time-unit="years">1</warranty>
-      <specification>
-        <weight weight-unit="g">30</weight>
-        <color>Black</color>
-      </specification>
-      <user-rating>4</user-rating>
-      <in-stock>34</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="65" category-id="notebook" manufacturer-id="dell">
-      <name>Dell XPS 15</name>
-      <price currency="pln" on-sale="no">7899</price>
-      <release-date>
-        <day>3</day>
-        <month>4</month>
-        <year>2018</year>
-      </release-date>
-      <warranty time-unit="years">4</warranty>
-      <specification>
-        <weight weight-unit="g">1500</weight>
-        <display-size display_size-unit="inch">15</display-size>
-        <color>Carbon Black</color>
-      </specification>
-      <user-rating>4.9</user-rating>
-      <in-stock>128</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="66" category-id="mouse" manufacturer-id="asus">
-      <name>Asus ROG Strix Impact</name>
-      <price currency="pln" on-sale="no">229.48</price>
-      <release-date>
-        <day>2</day>
-        <month>6</month>
-        <year>2013</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">87</weight>
-        <color>Black</color>
-      </specification>
-      <user-rating>3.7</user-rating>
-      <in-stock>78</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="67" category-id="tv" manufacturer-id="Samsung">
-      <name>Samsung UE49NU7ST4K</name>
-      <price currency="pln" on-sale="yes">2439.99</price>
-      <release-date>
-        <day>18</day>
-        <month>9</month>
-        <year>2015</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">3200</weight>
-        <display-size display_size-unit="inch">49</display-size>
-        <color>Black</color>
-      </specification>
-      <user-rating>3.4</user-rating>
-      <in-stock>12</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="68" category-id="smartphone" manufacturer-id="razer">
-      <name>Razer Phone 2</name>
-      <price currency="pln" on-sale="yes"></price>
-      <release-date>
-        <day>3</day>
-        <month>4</month>
-        <year>2018</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">650</weight>
-        <display-size display_size-unit="inch">5.5</display-size>
-        <color>Black</color>
-      </specification>
-      <user-rating>4</user-rating>
-      <in-stock>241</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="69" category-id="accessory" manufacturer-id="razer">
-      <name>Razer Mouse Bungiee</name>
-      <price currency="pln" on-sale="no">100</price>
-      <release-date>
-        <day>3</day>
-        <month>4</month>
-        <year>2017</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">50</weight>
-        <color>Balck-Green</color>
-      </specification>
-      <user-rating>4.1</user-rating>
-      <in-stock>132</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information></additional-information>
-    </product>
-
-    <product product-id="70" category-id="monitor" manufacturer-id="acer">
-      <name>Acer Nitro VG24IPS144HZ</name>
-      <price currency="pln" on-sale="yes">799</price>
-      <release-date>
-        <day>4</day>
-        <month>12</month>
-        <year>2017</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">2100</weight>
-        <display-size display_size-unit="inch">24</display-size>
-        <color>Red</color>
-      </specification>
-      <user-rating>4.4</user-rating>
-      <in-stock>125</in-stock>
-      <free-delivery>non-available</free-delivery>
-      <additional-information>Free cleaning cloth with every order.</additional-information>
-    </product>
-
-    <product product-id="71" category-id="notebook" manufacturer-id="asus">
-      <name>Asus Swift 5 Ferrari Edition</name>
-      <price currency="pln" on-sale="no">6499.99</price>
-      <release-date>
-        <day>2</day>
-        <month>4</month>
-        <year>2018</year>
-      </release-date>
-      <warranty time-unit="years">2</warranty>
-      <specification>
-        <weight weight-unit="g">1050</weight>
-        <display-size display_size-unit="inch">15</display-size>
-        <color>Ferrari Red</color>
-      </specification>
-      <user-rating>5</user-rating>
-      <in-stock>12</in-stock>
-      <free-delivery>available</free-delivery>
-      <additional-information>Limited Edition product.</additional-information>
-    </product>
-  </products-list>
+    <document-information class="main-box" title="Document information">
+        <author>
+            <first-name>Łukasz</first-name>
+            <last-name>Starosta</last-name>
+            <studentsID>217862</studentsID>
+        </author>
+        <author>
+            <first-name>Piotr</first-name>
+            <last-name>Karczewski</last-name>
+            <studentsID>217846</studentsID>
+        </author>
+        <description>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium totam quisquam hic enim. Ullam nesciunt ad unde eligendi, blanditiis esse ipsa eius illum earum accusantium assumenda, voluptatum autem quo!
+    </description>
+    </document-information>
+    <data>
+        <categories>
+            <manufacturers class="main-box" title="Manufacturers">
+                <manufacturer manufacturer-id="samsung">
+                    <name>Samsung</name>
+                    <headquarters>
+                        <location>Seul</location>
+                        <country>South Korea</country>
+                    </headquarters>
+                    <factory>Taiwan</factory>
+                </manufacturer>
+                <manufacturer manufacturer-id="apple">
+                    <name>Apple</name>
+                    <headquarters>
+                        <location>Apple Park</location>
+                        <country>United States</country>
+                    </headquarters>
+                    <factory>China</factory>
+                </manufacturer>
+                <manufacturer manufacturer-id="oneplus">
+                    <name>OnePlus</name>
+                    <headquarters>
+                        <location>Shenzen</location>
+                        <country>China</country>
+                    </headquarters>
+                    <factory>Taiwan</factory>
+                </manufacturer>
+                <manufacturer manufacturer-id="razer">
+                    <name>Razer</name>
+                    <headquarters>
+                        <location>San Francisco</location>
+                        <country>United States</country>
+                    </headquarters>
+                    <factory>China</factory>
+                </manufacturer>
+                <manufacturer manufacturer-id="acer">
+                    <name>Acer</name>
+                    <headquarters>
+                        <location>New Taipei</location>
+                        <country>China</country>
+                    </headquarters>
+                    <factory>China</factory>
+                </manufacturer>
+                <manufacturer manufacturer-id="asus">
+                    <name>Asus</name>
+                    <headquarters>
+                        <location>Beitou</location>
+                        <country>China</country>
+                    </headquarters>
+                    <factory>Taiwan</factory>
+                </manufacturer>
+                <manufacturer manufacturer-id="dell">
+                    <name>Dell</name>
+                    <headquarters>
+                        <location>Round Rock</location>
+                        <country>United States</country>
+                    </headquarters>
+                </manufacturer>
+            </manufacturers>
+            <product-types class="main-box" title="Product types">
+                <product-type category-id="notebook">Notebook</product-type>
+                <product-type category-id="smartphone">Smartphone</product-type>
+                <product-type category-id="tv">TV</product-type>
+                <product-type category-id="monitor">Monitor</product-type>
+                <product-type category-id="accessory">Accesory</product-type>
+                <product-type category-id="keyboard">Keyboard</product-type>
+                <product-type category-id="mouse">Mouse</product-type>
+                <product-type category-id="hoverboard">Hoverboard</product-type>
+            </product-types>
+        </categories>
+        <products-list class="main-box" title="Products list">
+            <product product-id="50" category-id="notebook" manufacturer-id="acer">
+                <name>Acer Swift 3</name>
+                <price currency="pln" on-sale="no">2000</price>
+                <release-date>
+                    <day>23</day>
+                    <month>1</month>
+                    <year>2017</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">1200</weight>
+                    <display-size display_size-unit="inch">13.3</display-size>
+                    <color>Silver</color>
+                </specification>
+                <user-rating>4</user-rating>
+                <in-stock>23</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="51" category-id="notebook" manufacturer-id="apple">
+                <name>Apple MacBook Pro</name>
+                <price currency="pln" on-sale="yes">3699</price>
+                <release-date>
+                    <day>3</day>
+                    <month>4</month>
+                    <year>2018</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">1050</weight>
+                    <display-size display_size-unit="inch">15</display-size>
+                    <color>Space Gray</color>
+                </specification>
+                <user-rating>4.5</user-rating>
+                <in-stock>1305</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information>Version with US keyboard layout.</additional-information>
+            </product>
+            <product product-id="52" category-id="smartphone" manufacturer-id="samsung">
+                <name>Samsung Galaxy S9 Plus</name>
+                <price currency="pln" on-sale="no">3299</price>
+                <release-date>
+                    <day>12</day>
+                    <month>11</month>
+                    <year>2018</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">650</weight>
+                    <display-size display_size-unit="inch">6.7</display-size>
+                    <color>Midnight Black</color>
+                </specification>
+                <user-rating>4.7</user-rating>
+                <in-stock>784</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information>Free wireless charger with every order.</additional-information>
+            </product>
+            <product product-id="53" category-id="smartphone" manufacturer-id="apple">
+                <name>Apple IPhone X</name>
+                <price currency="pln" on-sale="no">3893</price>
+                <release-date>
+                    <day>14</day>
+                    <month>6</month>
+                    <year>2018</year>
+                </release-date>
+                <warranty time-unit="years">3</warranty>
+                <specification>
+                    <weight weight-unit="g">740</weight>
+                    <display-size display_size-unit="inch">5.8</display-size>
+                    <color>Rose Gold</color>
+                </specification>
+                <user-rating>4.4</user-rating>
+                <in-stock>2154</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="54" category-id="notebook" manufacturer-id="dell">
+                <name>Dell Inspiron 5379</name>
+                <price currency="pln" on-sale="yes">3259</price>
+                <release-date>
+                    <day>2</day>
+                    <month>3</month>
+                    <year>2017</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">1230</weight>
+                    <display-size display_size-unit="inch">13.3</display-size>
+                    <color>Matte Grey</color>
+                </specification>
+                <user-rating>4.1</user-rating>
+                <in-stock>521</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information>Version with touchscreen.</additional-information>
+            </product>
+            <product product-id="55" category-id="keyboard" manufacturer-id="razer">
+                <name>Razer Blackwidow Chroma</name>
+                <price currency="pln" on-sale="no">549</price>
+                <release-date>
+                    <day>12</day>
+                    <month>10</month>
+                    <year>2016</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">970</weight>
+                    <color>Black</color>
+                    <switch>Cherry MX Silent</switch>
+                </specification>
+                <user-rating>4.9</user-rating>
+                <in-stock>325</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="56" category-id="monitor" manufacturer-id="Samsung">
+                <name>Samsung Curved LCD24IPSFHD</name>
+                <price currency="pln" on-sale="yes">899.98</price>
+                <release-date>
+                    <day>22</day>
+                    <month>7</month>
+                    <year>2016</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">1321</weight>
+                    <display-size display_size-unit="inch">23.4</display-size>
+                    <color>Black</color>
+                </specification>
+                <user-rating>3.8</user-rating>
+                <in-stock>134</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information>Ex-display product.</additional-information>
+            </product>
+            <product product-id="57" category-id="tv" manufacturer-id="samsung">
+                <name>Samsung QLED UE554K</name>
+                <price currency="pln" on-sale="no">5698.78</price>
+                <release-date>
+                    <day>3</day>
+                    <month>2</month>
+                    <year>2016</year>
+                </release-date>
+                <warranty time-unit="years">3</warranty>
+                <specification>
+                    <weight weight-unit="g">3500</weight>
+                    <display-size display_size-unit="inch">55</display-size>
+                    <color>Silver</color>
+                </specification>
+                <user-rating>4.2</user-rating>
+                <in-stock>243</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information>HDR capable.</additional-information>
+            </product>
+            <product product-id="58" category-id="monitor" manufacturer-id="asus">
+                <name>Asus VZ27VQ</name>
+                <price currency="pln" on-sale="yes">829.99</price>
+                <release-date>
+                    <day>1</day>
+                    <month>8</month>
+                    <year>2015</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">2000</weight>
+                    <display-size display_size-unit="inch">27</display-size>
+                    <color>White</color>
+                </specification>
+                <user-rating>3.6</user-rating>
+                <in-stock>57</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information>Stand with height and width adjustment.</additional-information>
+            </product>
+            <product product-id="59" category-id="mouse" manufacturer-id="razer">
+                <name>Razer Mamba Chroma</name>
+                <price currency="pln" on-sale="no">279.49</price>
+                <release-date>
+                    <day>24</day>
+                    <month>10</month>
+                    <year>2013</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">98</weight>
+                    <color>Black</color>
+                    <sensor>Optical</sensor>
+                </specification>
+                <user-rating>3.9</user-rating>
+                <in-stock>34</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="60" category-id="keyboard" manufacturer-id="asus">
+                <name>Asus ROG Strix Flare</name>
+                <price currency="pln" on-sale="yes">359.98</price>
+                <release-date>
+                    <day>5</day>
+                    <month>12</month>
+                    <year>2016</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">1221</weight>
+                    <color>White</color>
+                </specification>
+                <user-rating>4.3</user-rating>
+                <in-stock>249</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="61" category-id="smartphone" manufacturer-id="oneplus">
+                <name>OnePlus 6</name>
+                <price currency="pln" on-sale="yes">2400</price>
+                <release-date>
+                    <day>2</day>
+                    <month>6</month>
+                    <year>2018</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">800</weight>
+                    <display-size display_size-unit="inch">6.3</display-size>
+                    <color>Midnight Black</color>
+                </specification>
+                <user-rating>4.5</user-rating>
+                <in-stock>721</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information>Car charger included with every order.</additional-information>
+            </product>
+            <product product-id="s62" category-id="smartphone" manufacturer-id="oneplus">
+                <name>Oneplus 3</name>
+                <price currency="pln" on-sale="no">1799</price>
+                <release-date>
+                    <day>11</day>
+                    <month>7</month>
+                    <year>2016</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">821</weight>
+                    <display-size display_size-unit="inch">5.5</display-size>
+                    <color>Silver</color>
+                </specification>
+                <user-rating>4.7</user-rating>
+                <in-stock>24</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information>Flagship killer of the year 2016.</additional-information>
+            </product>
+            <product product-id="63" category-id="accesory" manufacturer-id="Apple">
+                <name>Leather Case for Iphone X</name>
+                <price currency="pln" on-sale="yes"></price>
+                <release-date>
+                    <day>23</day>
+                    <month>11</month>
+                    <year>2018</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">95</weight>
+                    <color>Brown</color>
+                </specification>
+                <user-rating>4.1</user-rating>
+                <in-stock>113</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="64" category-id="accessory" manufacturer-id="acer">
+                <name>Materil Laptop Pouch</name>
+                <price currency="pln" on-sale="no">79.98</price>
+                <release-date>
+                    <day>1</day>
+                    <month>3</month>
+                    <year>2014</year>
+                </release-date>
+                <warranty time-unit="years">1</warranty>
+                <specification>
+                    <weight weight-unit="g">30</weight>
+                    <color>Black</color>
+                </specification>
+                <user-rating>4</user-rating>
+                <in-stock>34</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="65" category-id="notebook" manufacturer-id="dell">
+                <name>Dell XPS 15</name>
+                <price currency="pln" on-sale="no">7899</price>
+                <release-date>
+                    <day>3</day>
+                    <month>4</month>
+                    <year>2018</year>
+                </release-date>
+                <warranty time-unit="years">4</warranty>
+                <specification>
+                    <weight weight-unit="g">1500</weight>
+                    <display-size display_size-unit="inch">15</display-size>
+                    <color>Carbon Black</color>
+                </specification>
+                <user-rating>4.9</user-rating>
+                <in-stock>128</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="66" category-id="mouse" manufacturer-id="asus">
+                <name>Asus ROG Strix Impact</name>
+                <price currency="pln" on-sale="no">229.48</price>
+                <release-date>
+                    <day>2</day>
+                    <month>6</month>
+                    <year>2013</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">87</weight>
+                    <color>Black</color>
+                </specification>
+                <user-rating>3.7</user-rating>
+                <in-stock>78</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="67" category-id="tv" manufacturer-id="Samsung">
+                <name>Samsung UE49NU7ST4K</name>
+                <price currency="pln" on-sale="yes">2439.99</price>
+                <release-date>
+                    <day>18</day>
+                    <month>9</month>
+                    <year>2015</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">3200</weight>
+                    <display-size display_size-unit="inch">49</display-size>
+                    <color>Black</color>
+                </specification>
+                <user-rating>3.4</user-rating>
+                <in-stock>12</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="68" category-id="smartphone" manufacturer-id="razer">
+                <name>Razer Phone 2</name>
+                <price currency="pln" on-sale="yes"></price>
+                <release-date>
+                    <day>3</day>
+                    <month>4</month>
+                    <year>2018</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">650</weight>
+                    <display-size display_size-unit="inch">5.5</display-size>
+                    <color>Black</color>
+                </specification>
+                <user-rating>4</user-rating>
+                <in-stock>241</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="69" category-id="accessory" manufacturer-id="razer">
+                <name>Razer Mouse Bungiee</name>
+                <price currency="pln" on-sale="no">100</price>
+                <release-date>
+                    <day>3</day>
+                    <month>4</month>
+                    <year>2017</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">50</weight>
+                    <color>Balck-Green</color>
+                </specification>
+                <user-rating>4.1</user-rating>
+                <in-stock>132</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information></additional-information>
+            </product>
+            <product product-id="70" category-id="monitor" manufacturer-id="acer">
+                <name>Acer Nitro VG24IPS144HZ</name>
+                <price currency="pln" on-sale="yes">799</price>
+                <release-date>
+                    <day>4</day>
+                    <month>12</month>
+                    <year>2017</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">2100</weight>
+                    <display-size display_size-unit="inch">24</display-size>
+                    <color>Red</color>
+                </specification>
+                <user-rating>4.4</user-rating>
+                <in-stock>125</in-stock>
+                <free-delivery>non-available</free-delivery>
+                <additional-information>Free cleaning cloth with every order.</additional-information>
+            </product>
+            <product product-id="71" category-id="notebook" manufacturer-id="asus">
+                <name>Asus Swift 5 Ferrari Edition</name>
+                <price currency="pln" on-sale="no">6499.99</price>
+                <release-date>
+                    <day>2</day>
+                    <month>4</month>
+                    <year>2018</year>
+                </release-date>
+                <warranty time-unit="years">2</warranty>
+                <specification>
+                    <weight weight-unit="g">1050</weight>
+                    <display-size display_size-unit="inch">15</display-size>
+                    <color>Ferrari Red</color>
+                </specification>
+                <user-rating>5</user-rating>
+                <in-stock>12</in-stock>
+                <free-delivery>available</free-delivery>
+                <additional-information>Limited Edition product.</additional-information>
+            </product>
+        </products-list>
+    </data>
 </electronics-shop>
