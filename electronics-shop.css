@@ -18,7 +18,7 @@ electronics-shop * {
 
 document-information {
     position: relative;
-    width: 60%;
+    width: 40%;
     margin: 20px 0;
 }
 document-information,
@@ -36,8 +36,14 @@ document-information author {
 }
 document-information description {
     display: block;
-    margin-top: 5px;
+    margin-top: 20px;
+    font-size: 0.85rem;
 }
+
+document-information student-id {
+    font-weight: bold;
+}
+
 data {
     display: grid;
     margin: 0 auto;
@@ -85,10 +91,33 @@ product-type {
     padding: 3px;
 }
 
+manufacturer > * {
+    display: block;
+}
+
+manufacturer name {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+manufacturer headquarters::before {
+    content: 'Headquarters: ';
+    font-weight: 500;
+}
+
+manufacturer factory {
+    display: none;
+}
+
+manufacturer location::after {
+    content: ', ';
+}
+
 product-types > :first-child,
 manufacturers > :first-child {
     margin-top: 20px;
 }
+
 @media (min-width: 1920px) {
     product-types > :first-child,
     manufacturers > :first-child {
@@ -114,6 +143,10 @@ product {
     height: 50px;
     grid-template-columns: 3fr 1.2fr 2fr 1fr 4fr 1fr 1fr 2fr 3fr;
     margin: 4px 0;
+}
+
+product:nth-child(even) {
+    background: #d3d3d3;
 }
 
 product > * {
