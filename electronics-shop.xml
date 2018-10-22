@@ -6,15 +6,15 @@
         <author>
             <first-name>Łukasz</first-name>
             <last-name>Starosta</last-name>
-            <studentsID>217862</studentsID>
+            <student-id>217862</student-id>
         </author>
         <author>
             <first-name>Piotr</first-name>
             <last-name>Karczewski</last-name>
-            <studentsID>217846</studentsID>
+            <student-id>217846</student-id>
         </author>
         <description>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium totam quisquam hic enim. Ullam nesciunt ad unde eligendi, blanditiis esse ipsa eius illum earum accusantium assumenda, voluptatum autem quo!
+        This XML document contains an example of an online electronics shop. To the left, there are different categories like manufacturers of the products (e.g. Samsung or Apple) and product types (e.g. mouse or keyboard). To the right, there is a list of all the products in the shop with additional information about them.
     </description>
     </document-information>
     <data>
