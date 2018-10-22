@@ -4,10 +4,10 @@
 <!ATTLIST document-information class CDATA #FIXED "main-box"
                                      title CDATA #FIXED "Document information"
         >
-<!ELEMENT author (first-name, last-name, studentsID)>
+<!ELEMENT author (first-name, last-name, student-id)>
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT last-name (#PCDATA)>
-<!ELEMENT studentsID (#PCDATA)>
+<!ELEMENT student-id (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
 
 <!ELEMENT data (categories, products-list)
