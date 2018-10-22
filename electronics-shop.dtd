@@ -1,25 +1,42 @@
-<!ELEMENT electronics-shop (authors-information, manufacturers, categories, products-list)>
+<!ELEMENT electronics-shop (document-information, manufacturers, data)>
 
-<!ELEMENT authors-information (author+)>
-<!ELEMENT author (first-name, last-name, studentsID)>
+<!ELEMENT document-information (author+, description)>
+<!ATTLIST document-information class CDATA #FIXED "main-box"
+                                     title CDATA #FIXED "Document information"
+        >
+<!ELEMENT author (first-name, last-name, student-id)>
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT last-name (#PCDATA)>
-<!ELEMENT studentsID (#PCDATA)>
+<!ELEMENT student-id (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
 
+<!ELEMENT data (categories, products-list)
+
+<!ELEMENT categories (manufacturers, product-types)>
 <!ELEMENT manufacturers (manufacturer+)>
-<!ELEMENT manufacturer (name, headquarters, factory)>
+<!ATTLIST manufacturers class CDATA #FIXED "main-box"
+        title CATA #FIXED "Manufacturers"
+        >
+<!ELEMENT manufacturer (manufacturer-name, headquarters, factory)>
 <!ATTLIST manufacturer manufacturer-id ID #REQUIRED>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT headquarters (location, cuntry)>
+<!ELEMENT manufacturer-name (#PCDATA)>
+<!ELEMENT headquarters (location, country)>
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT country (#PCDATA)>
+<!ELEMENT factory (#PCDATA)>
 
-<!ELEMENT categories (category)>
-<!ELEMENT category (#PCDATA)>
-<!ATTLIST category category-id ID #REQUIRED>
+<!ELEMENT product-types (product-type+)>
+<!ATTLIST product-types class CDATA #FIXED "main-box"
+                        title CATA #FIXED "Product types"
+        >
+<!ELEMENT product-type (#PCDATA)>
+<!ATTLIST product-type category-id ID #REQUIRED>
 
 <!ELEMENT products-list (product+)>
-<!ELEMENT procuct (name, price, relese-date, warranty, specification, user-rating, in-stock, free-delivery, additional-information*)>
+<!ATTLIST products-list class CDATA #FIXED "main-box"
+                        title CATA #FIXED "Products list"
+        >
+<!ELEMENT product (name, price, release-date, warranty, specification, user-rating, in-stock, free-delivery, additional-information*)>
 <!ATTLIST product product-id ID #REQUIRED>
 <!ATTLIST product category-id IDREF #REQUIRED>
 <!ATTLIST product manufacturer-id IDREF #REQUIRED>
@@ -28,7 +45,7 @@
 <!ELEMENT price (#PCDATA)>
 <!ATTLIST price currency CDATA #FIXED "pln">
 <!ATTLIST price on-sale CDATA #REQUIRED>
-<!ELEMENT relese-date (day, month, year)>
+<!ELEMENT release-date (day, month, year)>
 <!ELEMENT day (#PCDATA)>
 <!ELEMENT month (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
@@ -38,7 +55,7 @@
 <!ELEMENT weight (#PCDATA)>
 <!ATTLIST weight weight-unit CDATA #FIXED "g">
 <!ELEMENT display-size (#PCDATA)>
-<!ATTLIST display-size display_size-unir CDATA #REQUIRED>
+<!ATTLIST display-size display_size-unit CDATA #REQUIRED>
 <!ELEMENT color (#PCDATA)>
 <!ELEMENT switch (#PCDATA)>
 <!ELEMENT sensor (#PCDATA)>

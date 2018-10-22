@@ -21,7 +21,7 @@
         <categories>
             <manufacturers class="main-box" title="Manufacturers">
                 <manufacturer manufacturer-id="samsung">
-                    <name>Samsung</name>
+                    <manufacturer-name>Samsung</manufacturer-name>
                     <headquarters>
                         <location>Seul</location>
                         <country>South Korea</country>
@@ -29,7 +29,7 @@
                     <factory>Taiwan</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="apple">
-                    <name>Apple</name>
+                    <manufacturer-name>Apple</manufacturer-name>
                     <headquarters>
                         <location>Apple Park</location>
                         <country>United States</country>
@@ -37,7 +37,7 @@
                     <factory>China</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="oneplus">
-                    <name>OnePlus</name>
+                    <manufacturer-name>OnePlus</manufacturer-name>
                     <headquarters>
                         <location>Shenzen</location>
                         <country>China</country>
@@ -45,7 +45,7 @@
                     <factory>Taiwan</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="razer">
-                    <name>Razer</name>
+                    <manufacturer-name>Razer</manufacturer-name>
                     <headquarters>
                         <location>San Francisco</location>
                         <country>United States</country>
@@ -53,7 +53,7 @@
                     <factory>China</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="acer">
-                    <name>Acer</name>
+                    <manufacturer-name>Acer</manufacturer-name>
                     <headquarters>
                         <location>New Taipei</location>
                         <country>China</country>
@@ -61,7 +61,7 @@
                     <factory>China</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="asus">
-                    <name>Asus</name>
+                    <manufacturer-name>Asus</manufacturer-name>
                     <headquarters>
                         <location>Beitou</location>
                         <country>China</country>
@@ -69,7 +69,7 @@
                     <factory>Taiwan</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="dell">
-                    <name>Dell</name>
+                    <manufacturer-name>Dell</manufacturer-name>
                     <headquarters>
                         <location>Round Rock</location>
                         <country>United States</country>
@@ -203,7 +203,7 @@
                 <free-delivery available="non-available"></free-delivery>
                 <additional-information></additional-information>
             </product>
-            <product product-id="56" category-id="monitor" manufacturer-id="Samsung">
+            <product product-id="56" category-id="monitor" manufacturer-id="samsung">
                 <name>Samsung Curved LCD24IPSFHD</name>
                 <price currency="pln" on-sale="yes">899</price>
                 <release-date>
@@ -335,7 +335,7 @@
                 <free-delivery available="non-available"></free-delivery>
                 <additional-information>Flagship killer of the year 2016.</additional-information>
             </product>
-            <product product-id="63" category-id="accesory" manufacturer-id="Apple">
+            <product product-id="63" category-id="accessory" manufacturer-id="apple">
                 <name>Leather Case for Iphone X</name>
                 <price currency="pln" on-sale="yes">190</price>
                 <release-date>
@@ -408,7 +408,7 @@
                 <free-delivery available="non-available"></free-delivery>
                 <additional-information></additional-information>
             </product>
-            <product product-id="67" category-id="tv" manufacturer-id="Samsung">
+            <product product-id="67" category-id="tv" manufacturer-id="samsung">
                 <name>Samsung UE49NU7ST4K</name>
                 <price currency="pln" on-sale="yes">2439</price>
                 <release-date>
