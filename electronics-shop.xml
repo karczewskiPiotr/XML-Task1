@@ -21,7 +21,7 @@
         <categories>
             <manufacturers class="main-box" title="Manufacturers">
                 <manufacturer manufacturer-id="samsung">
-                    <name>Samsung</name>
+                    <manufacturer-name>Samsung</manufacturer-name>
                     <headquarters>
                         <location>Seul</location>
                         <country>South Korea</country>
@@ -29,7 +29,7 @@
                     <factory>Taiwan</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="apple">
-                    <name>Apple</name>
+                    <manufacturer-name>Apple</manufacturer-name>
                     <headquarters>
                         <location>Apple Park</location>
                         <country>United States</country>
@@ -37,7 +37,7 @@
                     <factory>China</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="oneplus">
-                    <name>OnePlus</name>
+                    <manufacturer-name>OnePlus</manufacturer-name>
                     <headquarters>
                         <location>Shenzen</location>
                         <country>China</country>
@@ -45,7 +45,7 @@
                     <factory>Taiwan</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="razer">
-                    <name>Razer</name>
+                    <manufacturer-name>Razer</manufacturer-name>
                     <headquarters>
                         <location>San Francisco</location>
                         <country>United States</country>
@@ -53,7 +53,7 @@
                     <factory>China</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="acer">
-                    <name>Acer</name>
+                    <manufacturer-name>Acer</manufacturer-name>
                     <headquarters>
                         <location>New Taipei</location>
                         <country>China</country>
@@ -61,7 +61,7 @@
                     <factory>China</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="asus">
-                    <name>Asus</name>
+                    <manufacturer-name>Asus</manufacturer-name>
                     <headquarters>
                         <location>Beitou</location>
                         <country>China</country>
@@ -69,7 +69,7 @@
                     <factory>Taiwan</factory>
                 </manufacturer>
                 <manufacturer manufacturer-id="dell">
-                    <name>Dell</name>
+                    <manufacturer-name>Dell</manufacturer-name>
                     <headquarters>
                         <location>Round Rock</location>
                         <country>United States</country>
@@ -105,7 +105,7 @@
                 <user-rating>4</user-rating>
                 <in-stock>23</in-stock>
                 <free-delivery>available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
             <product product-id="51" category-id="notebook" manufacturer-id="apple">
                 <name>Apple MacBook Pro</name>
@@ -162,7 +162,7 @@
                 <user-rating>4.4</user-rating>
                 <in-stock>2154</in-stock>
                 <free-delivery>available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
             <product product-id="54" category-id="notebook" manufacturer-id="dell">
                 <name>Dell Inspiron 5379</name>
@@ -200,9 +200,9 @@
                 <user-rating>4.9</user-rating>
                 <in-stock>325</in-stock>
                 <free-delivery>non-available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
-            <product product-id="56" category-id="monitor" manufacturer-id="Samsung">
+            <product product-id="56" category-id="monitor" manufacturer-id="samsung">
                 <name>Samsung Curved LCD24IPSFHD</name>
                 <price currency="pln" on-sale="yes">899.98</price>
                 <release-date>
@@ -334,9 +334,9 @@
                 <free-delivery>non-available</free-delivery>
                 <additional-information>Flagship killer of the year 2016.</additional-information>
             </product>
-            <product product-id="63" category-id="accesory" manufacturer-id="Apple">
+            <product product-id="63" category-id="accessory" manufacturer-id="apple">
                 <name>Leather Case for Iphone X</name>
-                <price currency="pln" on-sale="yes"></price>
+                <price currency="pln" on-sale="yes">78</price>
                 <release-date>
                     <day>23</day>
                     <month>11</month>
@@ -350,7 +350,7 @@
                 <user-rating>4.1</user-rating>
                 <in-stock>113</in-stock>
                 <free-delivery>non-available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
             <product product-id="64" category-id="accessory" manufacturer-id="acer">
                 <name>Materil Laptop Pouch</name>
@@ -368,7 +368,7 @@
                 <user-rating>4</user-rating>
                 <in-stock>34</in-stock>
                 <free-delivery>non-available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
             <product product-id="65" category-id="notebook" manufacturer-id="dell">
                 <name>Dell XPS 15</name>
@@ -387,7 +387,7 @@
                 <user-rating>4.9</user-rating>
                 <in-stock>128</in-stock>
                 <free-delivery>available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
             <product product-id="66" category-id="mouse" manufacturer-id="asus">
                 <name>Asus ROG Strix Impact</name>
@@ -405,9 +405,9 @@
                 <user-rating>3.7</user-rating>
                 <in-stock>78</in-stock>
                 <free-delivery>non-available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
-            <product product-id="67" category-id="tv" manufacturer-id="Samsung">
+            <product product-id="67" category-id="tv" manufacturer-id="samsung">
                 <name>Samsung UE49NU7ST4K</name>
                 <price currency="pln" on-sale="yes">2439.99</price>
                 <release-date>
@@ -424,7 +424,7 @@
                 <user-rating>3.4</user-rating>
                 <in-stock>12</in-stock>
                 <free-delivery>non-available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
             <product product-id="68" category-id="smartphone" manufacturer-id="razer">
                 <name>Razer Phone 2</name>
@@ -443,7 +443,7 @@
                 <user-rating>4</user-rating>
                 <in-stock>241</in-stock>
                 <free-delivery>non-available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
             <product product-id="69" category-id="accessory" manufacturer-id="razer">
                 <name>Razer Mouse Bungiee</name>
@@ -461,7 +461,7 @@
                 <user-rating>4.1</user-rating>
                 <in-stock>132</in-stock>
                 <free-delivery>non-available</free-delivery>
-                <additional-information></additional-information>
+                <additional-information/>
             </product>
             <product product-id="70" category-id="monitor" manufacturer-id="acer">
                 <name>Acer Nitro VG24IPS144HZ</name>
