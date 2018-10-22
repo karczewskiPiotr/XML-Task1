@@ -74,6 +74,7 @@
                         <location>Round Rock</location>
                         <country>United States</country>
                     </headquarters>
+                    <factory>China</factory>
                 </manufacturer>
             </manufacturers>
             <product-types class="main-box" title="Product types">
@@ -104,7 +105,7 @@
                 </specification>
                 <user-rating>4</user-rating>
                 <in-stock>23</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="51" category-id="notebook" manufacturer-id="apple">
@@ -123,7 +124,7 @@
                 </specification>
                 <user-rating>4.5</user-rating>
                 <in-stock>1305</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information>Version with US keyboard layout.</additional-information>
             </product>
             <product product-id="52" category-id="smartphone" manufacturer-id="samsung">
@@ -142,7 +143,7 @@
                 </specification>
                 <user-rating>4.7</user-rating>
                 <in-stock>784</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information>Free wireless charger with every order.</additional-information>
             </product>
             <product product-id="53" category-id="smartphone" manufacturer-id="apple">
@@ -161,7 +162,7 @@
                 </specification>
                 <user-rating>4.4</user-rating>
                 <in-stock>2154</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="54" category-id="notebook" manufacturer-id="dell">
@@ -180,7 +181,7 @@
                 </specification>
                 <user-rating>4.1</user-rating>
                 <in-stock>521</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information>Version with touchscreen.</additional-information>
             </product>
             <product product-id="55" category-id="keyboard" manufacturer-id="razer">
@@ -199,12 +200,12 @@
                 </specification>
                 <user-rating>4.9</user-rating>
                 <in-stock>325</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="non-available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="56" category-id="monitor" manufacturer-id="Samsung">
                 <name>Samsung Curved LCD24IPSFHD</name>
-                <price currency="pln" on-sale="yes">899.98</price>
+                <price currency="pln" on-sale="yes">899</price>
                 <release-date>
                     <day>22</day>
                     <month>7</month>
@@ -218,12 +219,12 @@
                 </specification>
                 <user-rating>3.8</user-rating>
                 <in-stock>134</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="non-available"></free-delivery>
                 <additional-information>Ex-display product.</additional-information>
             </product>
             <product product-id="57" category-id="tv" manufacturer-id="samsung">
                 <name>Samsung QLED UE554K</name>
-                <price currency="pln" on-sale="no">5698.78</price>
+                <price currency="pln" on-sale="no">5698</price>
                 <release-date>
                     <day>3</day>
                     <month>2</month>
@@ -237,12 +238,12 @@
                 </specification>
                 <user-rating>4.2</user-rating>
                 <in-stock>243</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information>HDR capable.</additional-information>
             </product>
             <product product-id="58" category-id="monitor" manufacturer-id="asus">
                 <name>Asus VZ27VQ</name>
-                <price currency="pln" on-sale="yes">829.99</price>
+                <price currency="pln" on-sale="yes">829</price>
                 <release-date>
                     <day>1</day>
                     <month>8</month>
@@ -256,12 +257,12 @@
                 </specification>
                 <user-rating>3.6</user-rating>
                 <in-stock>57</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="non-available"></free-delivery>
                 <additional-information>Stand with height and width adjustment.</additional-information>
             </product>
             <product product-id="59" category-id="mouse" manufacturer-id="razer">
                 <name>Razer Mamba Chroma</name>
-                <price currency="pln" on-sale="no">279.49</price>
+                <price currency="pln" on-sale="no">279</price>
                 <release-date>
                     <day>24</day>
                     <month>10</month>
@@ -275,12 +276,12 @@
                 </specification>
                 <user-rating>3.9</user-rating>
                 <in-stock>34</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="non-available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="60" category-id="keyboard" manufacturer-id="asus">
                 <name>Asus ROG Strix Flare</name>
-                <price currency="pln" on-sale="yes">359.98</price>
+                <price currency="pln" on-sale="yes">359</price>
                 <release-date>
                     <day>5</day>
                     <month>12</month>
@@ -293,7 +294,7 @@
                 </specification>
                 <user-rating>4.3</user-rating>
                 <in-stock>249</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="61" category-id="smartphone" manufacturer-id="oneplus">
@@ -312,7 +313,7 @@
                 </specification>
                 <user-rating>4.5</user-rating>
                 <in-stock>721</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information>Car charger included with every order.</additional-information>
             </product>
             <product product-id="s62" category-id="smartphone" manufacturer-id="oneplus">
@@ -331,12 +332,12 @@
                 </specification>
                 <user-rating>4.7</user-rating>
                 <in-stock>24</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="non-available"></free-delivery>
                 <additional-information>Flagship killer of the year 2016.</additional-information>
             </product>
             <product product-id="63" category-id="accesory" manufacturer-id="Apple">
                 <name>Leather Case for Iphone X</name>
-                <price currency="pln" on-sale="yes"></price>
+                <price currency="pln" on-sale="yes">190</price>
                 <release-date>
                     <day>23</day>
                     <month>11</month>
@@ -349,25 +350,25 @@
                 </specification>
                 <user-rating>4.1</user-rating>
                 <in-stock>113</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="non-available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="64" category-id="accessory" manufacturer-id="acer">
                 <name>Materil Laptop Pouch</name>
-                <price currency="pln" on-sale="no">79.98</price>
+                <price currency="pln" on-sale="no">79</price>
                 <release-date>
                     <day>1</day>
                     <month>3</month>
                     <year>2014</year>
                 </release-date>
-                <warranty time-unit="years">1</warranty>
+                <warranty time-unit="years">5</warranty>
                 <specification>
                     <weight weight-unit="g">30</weight>
                     <color>Black</color>
                 </specification>
                 <user-rating>4</user-rating>
                 <in-stock>34</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="65" category-id="notebook" manufacturer-id="dell">
@@ -386,12 +387,12 @@
                 </specification>
                 <user-rating>4.9</user-rating>
                 <in-stock>128</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="66" category-id="mouse" manufacturer-id="asus">
                 <name>Asus ROG Strix Impact</name>
-                <price currency="pln" on-sale="no">229.48</price>
+                <price currency="pln" on-sale="no">229</price>
                 <release-date>
                     <day>2</day>
                     <month>6</month>
@@ -404,12 +405,12 @@
                 </specification>
                 <user-rating>3.7</user-rating>
                 <in-stock>78</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="non-available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="67" category-id="tv" manufacturer-id="Samsung">
                 <name>Samsung UE49NU7ST4K</name>
-                <price currency="pln" on-sale="yes">2439.99</price>
+                <price currency="pln" on-sale="yes">2439</price>
                 <release-date>
                     <day>18</day>
                     <month>9</month>
@@ -423,7 +424,7 @@
                 </specification>
                 <user-rating>3.4</user-rating>
                 <in-stock>12</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="68" category-id="smartphone" manufacturer-id="razer">
@@ -442,11 +443,11 @@
                 </specification>
                 <user-rating>4</user-rating>
                 <in-stock>241</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="non-available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="69" category-id="accessory" manufacturer-id="razer">
-                <name>Razer Mouse Bungiee</name>
+                <name>Razer Mouse Bungee</name>
                 <price currency="pln" on-sale="no">100</price>
                 <release-date>
                     <day>3</day>
@@ -456,11 +457,11 @@
                 <warranty time-unit="years">2</warranty>
                 <specification>
                     <weight weight-unit="g">50</weight>
-                    <color>Balck-Green</color>
+                    <color>Black-Green</color>
                 </specification>
                 <user-rating>4.1</user-rating>
                 <in-stock>132</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information></additional-information>
             </product>
             <product product-id="70" category-id="monitor" manufacturer-id="acer">
@@ -479,12 +480,12 @@
                 </specification>
                 <user-rating>4.4</user-rating>
                 <in-stock>125</in-stock>
-                <free-delivery>non-available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information>Free cleaning cloth with every order.</additional-information>
             </product>
             <product product-id="71" category-id="notebook" manufacturer-id="asus">
                 <name>Asus Swift 5 Ferrari Edition</name>
-                <price currency="pln" on-sale="no">6499.99</price>
+                <price currency="pln" on-sale="no">6499</price>
                 <release-date>
                     <day>2</day>
                     <month>4</month>
@@ -498,7 +499,7 @@
                 </specification>
                 <user-rating>5</user-rating>
                 <in-stock>12</in-stock>
-                <free-delivery>available</free-delivery>
+                <free-delivery available="available"></free-delivery>
                 <additional-information>Limited Edition product.</additional-information>
             </product>
         </products-list>

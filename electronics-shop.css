@@ -1,8 +1,8 @@
 electronics-shop {
     display: grid;
     background: #646464;
-    grid-template-rows: 20vh 75vh;
-    width: 95%;
+    grid-template-rows: 20vh 78vh;
+    width: 98%;
     margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.9rem;
@@ -10,6 +10,7 @@ electronics-shop {
 @media (min-width: 1920px) {
     electronics-shop {
         width: 90%;
+        grid-template-rows: 20vh 75vh;
     }
 }
 electronics-shop * {
@@ -18,8 +19,8 @@ electronics-shop * {
 
 document-information {
     position: relative;
-    width: 40%;
-    margin: 20px 0;
+    width: 60%;
+    margin: 10px 0;
 }
 document-information,
 document-information > * {
@@ -30,6 +31,11 @@ document-information author {
     margin-top: 30px;
 }
 @media (min-width: 1920px) {
+    document-information {
+        width: 40%;
+        margin: 20px 0;
+    }
+
     document-information author {
         margin-top: 50px;
     }
@@ -49,11 +55,12 @@ data {
     margin: 0 auto;
     grid-template-rows: 100%;
     grid-template-columns: 2fr 7fr;
-    gap: 40px;
+    gap: 20px;
 }
 @media (min-width: 1920px) {
     data {
         grid-template-columns: 1fr 5fr;
+        gap: 40px;
     }
 }
 
@@ -75,20 +82,27 @@ categories > * {
 }
 
 manufacturers {
-    flex: 1.2;
-    margin-bottom: 40px;
+    flex: 1.4;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1920px) {
+    manufacturers {
+        margin-bottom: 40px;
+    }
 }
 
 manufacturers,
 product-types {
     position: relative;
-    font-size: 1.1rem;
+    font-size: 0.85rem;
 }
 
 manufacturer,
 product-type {
     display: block;
     padding: 3px;
+    transition: all 0.1s ease-in-out;
 }
 
 manufacturer > * {
@@ -96,6 +110,15 @@ manufacturer > * {
 }
 
 manufacturer name {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+manufacturer name::before {
+    content: '● ';
+}
+
+@media (min-width: 1920px) {
     font-size: 1.3rem;
     font-weight: 600;
 }
@@ -113,19 +136,35 @@ manufacturer location::after {
     content: ', ';
 }
 
+product-types {
+    counter-reset: product-types;
+}
+
+product-type {
+    font-size: 1.1rem;
+}
+
+product-type::before {
+    counter-increment: product-types;
+    content: counter(product-types) '. ';
+}
+
+product-type:hover,
+manufacturer:hover {
+    text-shadow: 0 3px 10px #bdbdbd;
+    transform: scale(1.05) translateX(8px);
+}
+
 product-types > :first-child,
 manufacturers > :first-child {
     margin-top: 20px;
 }
 
 @media (min-width: 1920px) {
-    product-types > :first-child,
-    manufacturers > :first-child {
+    manufacturers > :first-child,
+    product-types > :first-child {
         margin-top: 40px;
     }
-}
-product-types {
-    width: 80%;
 }
 
 products-list {
@@ -135,25 +174,161 @@ products-list {
     padding: 10px;
     overflow-y: scroll;
 }
-product:first-of-type {
-    margin-top: 50px;
-}
+
 product {
     display: grid;
-    height: 50px;
-    grid-template-columns: 3fr 1.2fr 2fr 1fr 4fr 1fr 1fr 2fr 3fr;
+    height: 55px;
+    grid-template-columns: 3fr 1.3fr 2fr 1.3fr 4.5fr 1.3fr 1.3fr 2fr 3.5fr;
     margin: 4px 0;
 }
 
 product:nth-child(even) {
-    background: #d3d3d3;
+    background: #e6e6e6;
 }
 
 product > * {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     box-shadow: 1px 2px 2px #b5b5b5 inset;
     padding: 5px;
+}
+
+product:first-of-type {
+    margin-top: 50px;
+}
+
+/* Headers */
+
+product:first-of-type > ::before {
+    position: absolute;
+    top: 44px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    justify-self: center;
+}
+
+product:first-of-type name::before {
+    content: 'Name';
+}
+product:first-of-type price::before {
+    content: 'Price';
+}
+product:first-of-type release-date::before {
+    content: 'Release date';
+}
+product:first-of-type warranty::before {
+    content: 'Warranty';
+}
+product:first-of-type specification::before {
+    content: 'Specification';
+}
+product:first-of-type user-rating::before {
+    content: 'User rating';
+}
+product:first-of-type in-stock::before {
+    content: 'In stock';
+}
+product:first-of-type free-delivery::before {
+    content: 'Free delivery';
+}
+product:first-of-type additional-information::before {
+    content: 'Additional information';
+}
+
+product:hover {
+    box-shadow: 0 0 8px #969696 inset;
+}
+
+/* Product elements */
+
+product price::after {
+    content: attr(currency);
+    position: relative;
+    left: 2px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+product release-date day::after,
+product release-date month::after {
+    content: '.';
+}
+
+product warranty::after {
+    content: attr(time-unit);
+    position: relative;
+    left: 2px;
+}
+
+product specification {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+product specification > *::before {
+    display: block;
+}
+
+product specification,
+product additional-information {
+    font-size: 0.9em;
+}
+
+product specification > * {
+    flex: 1.2;
+}
+
+product specification weight {
+    flex: 1;
+}
+
+product specification weight::before {
+    content: 'Weight: ';
+}
+
+product specification weight::after {
+    content: attr(weight-unit);
+}
+
+product specification display-size::before {
+    content: 'Display size: ';
+}
+
+product specification display-size::after {
+    content: attr(display_size-unit);
+    position: relative;
+    left: 2px;
+}
+
+product specification color::before {
+    content: 'Color: ';
+}
+
+product specification color::after {
+    content: attr(weight-unit);
+}
+
+product specification switch::before {
+    content: 'Switch: ';
+}
+
+product specification sensor::before {
+    content: 'Sensor: ';
+}
+
+product free-delivery::after {
+    content: attr(available);
+    text-transform: capitalize;
+}
+
+product free-delivery[available='available'] {
+    background-color: rgba(101, 255, 101, 0.4);
+}
+
+product free-delivery[available='non-available'] {
+    background-color: rgba(255, 101, 101, 0.4);
 }
 
 /* Modifiers */
@@ -177,5 +352,5 @@ product > * {
 [class='main-box'] {
     background: #f3f3f3;
     box-shadow: 0 6px 15px #373737;
-    border-radius: 4px;
+    border-radius: 2px;
 }
