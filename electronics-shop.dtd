@@ -62,4 +62,5 @@
 <!ELEMENT user-rating (#PCDATA)>
 <!ELEMENT in-stock (#PCDATA)>
 <!ELEMENT free-delivery (#PCDATA)>
+<!ATTLIST free-delivery available (available | non-available) #IMPLIED>
 <!ELEMENT additional-information (#PCDATA)>
