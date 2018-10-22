@@ -109,12 +109,12 @@ manufacturer > * {
     display: block;
 }
 
-manufacturer name {
+manufacturer manufacturer-name {
     font-size: 1.1rem;
     font-weight: 500;
 }
 
-manufacturer name::before {
+manufacturer manufacturer-name::before {
     content: '● ';
 }
 
