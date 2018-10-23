@@ -1,4 +1,4 @@
-<!ELEMENT electronics-shop (document-information, manufacturers, data)>
+<!ELEMENT electronics-shop (document-information, data)>
 
 <!ELEMENT document-information (author+, description)>
 <!ATTLIST document-information class CDATA #FIXED "main-box"

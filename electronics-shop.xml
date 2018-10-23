@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet href="electronics-shop.css"?>
-<!DOCTYPE electronics-shop SYSTEM "electronics-shop.dtd">
-<electronics-shop>
+<!--<!DOCTYPE electronics-shop SYSTEM "electronics-shop.dtd">-->
+<electronics-shop
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="electronics-shop.xsd">
     <document-information class="main-box" title="Document information">
         <author>
             <first-name>Łukasz</first-name>
@@ -89,7 +91,7 @@
             </product-types>
         </categories>
         <products-list class="main-box" title="Products list">
-            <product product-id="50" category-id="notebook" manufacturer-id="acer">
+            <product product-id="i50" category-id="notebook" manufacturer-id="acer">
                 <name>Acer Swift 3</name>
                 <price currency="pln" on-sale="no">2000</price>
                 <release-date>
@@ -108,7 +110,7 @@
                 <free-delivery available="available"/>
                 <additional-information/>
             </product>
-            <product product-id="51" category-id="notebook" manufacturer-id="apple">
+            <product product-id="i51" category-id="notebook" manufacturer-id="apple">
                 <name>Apple MacBook Pro</name>
                 <price currency="pln" on-sale="yes">3699</price>
                 <release-date>
@@ -127,7 +129,7 @@
                 <free-delivery available="available"/>
                 <additional-information>Version with US keyboard layout.</additional-information>
             </product>
-            <product product-id="52" category-id="smartphone" manufacturer-id="samsung">
+            <product product-id="i52" category-id="smartphone" manufacturer-id="samsung">
                 <name>Samsung Galaxy S9 Plus</name>
                 <price currency="pln" on-sale="no">3299</price>
                 <release-date>
@@ -146,7 +148,7 @@
                 <free-delivery available="available"/>
                 <additional-information>Free wireless charger with every order.</additional-information>
             </product>
-            <product product-id="53" category-id="smartphone" manufacturer-id="apple">
+            <product product-id="i53" category-id="smartphone" manufacturer-id="apple">
                 <name>Apple IPhone X</name>
                 <price currency="pln" on-sale="no">3893</price>
                 <release-date>
@@ -165,7 +167,7 @@
                 <free-delivery available="available"/>
                 <additional-information/>
             </product>
-            <product product-id="54" category-id="notebook" manufacturer-id="dell">
+            <product product-id="i54" category-id="notebook" manufacturer-id="dell">
                 <name>Dell Inspiron 5379</name>
                 <price currency="pln" on-sale="yes">3259</price>
                 <release-date>
@@ -184,7 +186,7 @@
                 <free-delivery available="available"/>
                 <additional-information>Version with touchscreen.</additional-information>
             </product>
-            <product product-id="55" category-id="keyboard" manufacturer-id="razer">
+            <product product-id="i55" category-id="keyboard" manufacturer-id="razer">
                 <name>Razer Blackwidow Chroma</name>
                 <price currency="pln" on-sale="no">549</price>
                 <release-date>
@@ -203,7 +205,7 @@
                 <free-delivery available="non-available"/>
                 <additional-information/>
             </product>
-            <product product-id="56" category-id="monitor" manufacturer-id="samsung">
+            <product product-id="i56" category-id="monitor" manufacturer-id="samsung">
                 <name>Samsung Curved LCD24IPSFHD</name>
                 <price currency="pln" on-sale="yes">899</price>
                 <release-date>
@@ -222,7 +224,7 @@
                 <free-delivery available="non-available"/>
                 <additional-information>Ex-display product.</additional-information>
             </product>
-            <product product-id="57" category-id="tv" manufacturer-id="samsung">
+            <product product-id="i57" category-id="tv" manufacturer-id="samsung">
                 <name>Samsung QLED UE554K</name>
                 <price currency="pln" on-sale="no">5698</price>
                 <release-date>
@@ -241,7 +243,7 @@
                 <free-delivery available="available"/>
                 <additional-information>HDR capable.</additional-information>
             </product>
-            <product product-id="58" category-id="monitor" manufacturer-id="asus">
+            <product product-id="i58" category-id="monitor" manufacturer-id="asus">
                 <name>Asus VZ27VQ</name>
                 <price currency="pln" on-sale="yes">829</price>
                 <release-date>
@@ -260,7 +262,7 @@
                 <free-delivery available="non-available"/>
                 <additional-information>Stand with height and width adjustment.</additional-information>
             </product>
-            <product product-id="59" category-id="mouse" manufacturer-id="razer">
+            <product product-id="i59" category-id="mouse" manufacturer-id="razer">
                 <name>Razer Mamba Chroma</name>
                 <price currency="pln" on-sale="no">279</price>
                 <release-date>
@@ -279,7 +281,7 @@
                 <free-delivery available="non-available"/>
                 <additional-information/>
             </product>
-            <product product-id="60" category-id="keyboard" manufacturer-id="asus">
+            <product product-id="i60" category-id="keyboard" manufacturer-id="asus">
                 <name>Asus ROG Strix Flare</name>
                 <price currency="pln" on-sale="yes">359</price>
                 <release-date>
@@ -297,7 +299,7 @@
                 <free-delivery available="available"/>
                 <additional-information/>
             </product>
-            <product product-id="61" category-id="smartphone" manufacturer-id="oneplus">
+            <product product-id="i61" category-id="smartphone" manufacturer-id="oneplus">
                 <name>OnePlus 6</name>
                 <price currency="pln" on-sale="yes">2400</price>
                 <release-date>
@@ -335,7 +337,7 @@
                 <free-delivery available="non-available"/>
                 <additional-information>Flagship killer of the year 2016.</additional-information>
             </product>
-            <product product-id="63" category-id="accessory" manufacturer-id="apple">
+            <product product-id="i63" category-id="accessory" manufacturer-id="apple">
                 <name>Leather Case for Iphone X</name>
                 <price currency="pln" on-sale="yes">190</price>
                 <release-date>
@@ -353,7 +355,7 @@
                 <free-delivery available="non-available"/>
                 <additional-information/>
             </product>
-            <product product-id="64" category-id="accessory" manufacturer-id="acer">
+            <product product-id="i64" category-id="accessory" manufacturer-id="acer">
                 <name>Materil Laptop Pouch</name>
                 <price currency="pln" on-sale="no">79</price>
                 <release-date>
@@ -371,7 +373,7 @@
                 <free-delivery available="available"/>
                 <additional-information/>
             </product>
-            <product product-id="65" category-id="notebook" manufacturer-id="dell">
+            <product product-id="i65" category-id="notebook" manufacturer-id="dell">
                 <name>Dell XPS 15</name>
                 <price currency="pln" on-sale="no">7899</price>
                 <release-date>
@@ -390,7 +392,7 @@
                 <free-delivery available="available"/>
                 <additional-information/>
             </product>
-            <product product-id="66" category-id="mouse" manufacturer-id="asus">
+            <product product-id="i66" category-id="mouse" manufacturer-id="asus">
                 <name>Asus ROG Strix Impact</name>
                 <price currency="pln" on-sale="no">229</price>
                 <release-date>
@@ -408,7 +410,7 @@
                 <free-delivery available="non-available"/>
                 <additional-information/>
             </product>
-            <product product-id="67" category-id="tv" manufacturer-id="samsung">
+            <product product-id="i67" category-id="tv" manufacturer-id="samsung">
                 <name>Samsung UE49NU7ST4K</name>
                 <price currency="pln" on-sale="yes">2439</price>
                 <release-date>
@@ -427,7 +429,7 @@
                 <free-delivery available="available"/>
                 <additional-information/>
             </product>
-            <product product-id="68" category-id="smartphone" manufacturer-id="razer">
+            <product product-id="i68" category-id="smartphone" manufacturer-id="razer">
                 <name>Razer Phone 2</name>
                 <price currency="pln" on-sale="yes">2799</price>
                 <release-date>
@@ -446,7 +448,7 @@
                 <free-delivery available="non-available"/>
                 <additional-information/>
             </product>
-            <product product-id="69" category-id="accessory" manufacturer-id="razer">
+            <product product-id="i69" category-id="accessory" manufacturer-id="razer">
                 <name>Razer Mouse Bungee</name>
                 <price currency="pln" on-sale="no">100</price>
                 <release-date>
@@ -464,7 +466,7 @@
                 <free-delivery available="available"/>
                 <additional-information/>
             </product>
-            <product product-id="70" category-id="monitor" manufacturer-id="acer">
+            <product product-id="i70" category-id="monitor" manufacturer-id="acer">
                 <name>Acer Nitro VG24IPS144HZ</name>
                 <price currency="pln" on-sale="yes">799</price>
                 <release-date>
@@ -483,7 +485,7 @@
                 <free-delivery available="available"/>
                 <additional-information>Free cleaning cloth with every order.</additional-information>
             </product>
-            <product product-id="71" category-id="notebook" manufacturer-id="asus">
+            <product product-id="i71" category-id="notebook" manufacturer-id="asus">
                 <name>Asus Swift 5 Ferrari Edition</name>
                 <price currency="pln" on-sale="no">6499</price>
                 <release-date>
