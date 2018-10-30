@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet href="electronics-shop.css"?>
-<!--<!DOCTYPE electronics-shop SYSTEM "electronics-shop.dtd">-->
-<electronics-shop
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="electronics-shop.xsd">
-    <document-information class="main-box" title="Document information">
+<!DOCTYPE electronics-shop SYSTEM "electronics-shop.dtd">
+<electronics-shop>
+    <document-information>
         <author>
             <first-name>Łukasz</first-name>
             <last-name>Starosta</last-name>
@@ -17,11 +15,11 @@
         </author>
         <description>
         This XML document contains an example of an online electronics shop. To the left, there are different categories like manufacturers of the products (e.g. Samsung or Apple) and product types (e.g. mouse or keyboard). To the right, there is a list of all the products in the shop with additional information about them.
-    </description>
+        </description>
     </document-information>
     <data>
         <categories>
-            <manufacturers class="main-box" title="Manufacturers">
+            <manufacturers>
                 <manufacturer manufacturer-id="samsung">
                     <manufacturer-name>Samsung</manufacturer-name>
                     <headquarters>
@@ -79,7 +77,7 @@
                     <factory>China</factory>
                 </manufacturer>
             </manufacturers>
-            <product-types class="main-box" title="Product types">
+            <product-types>
                 <product-type category-id="notebook">Notebook</product-type>
                 <product-type category-id="smartphone">Smartphone</product-type>
                 <product-type category-id="tv">TV</product-type>
@@ -90,7 +88,7 @@
                 <product-type category-id="hoverboard">Hoverboard</product-type>
             </product-types>
         </categories>
-        <products-list class="main-box" title="Products list">
+        <products-list>
             <product product-id="i50" category-id="notebook" manufacturer-id="acer">
                 <name>Acer Swift 3</name>
                 <price currency="pln" on-sale="no">2000</price>

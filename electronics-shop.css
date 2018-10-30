@@ -4,7 +4,7 @@ electronics-shop {
     grid-template-rows: 20vh 78vh;
     width: 98%;
     margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.9rem;
 }
 @media (min-width: 1920px) {
@@ -115,7 +115,7 @@ manufacturer manufacturer-name {
 }
 
 manufacturer manufacturer-name::before {
-    content: '● ';
+    content: "● ";
 }
 
 @media (min-width: 1920px) {
@@ -124,7 +124,7 @@ manufacturer manufacturer-name::before {
 }
 
 manufacturer headquarters::before {
-    content: 'Headquarters: ';
+    content: "Headquarters: ";
     font-weight: 500;
 }
 
@@ -133,7 +133,7 @@ manufacturer factory {
 }
 
 manufacturer location::after {
-    content: ', ';
+    content: ", ";
 }
 
 product-types {
@@ -146,7 +146,7 @@ product-type {
 
 product-type::before {
     counter-increment: product-types;
-    content: counter(product-types) '. ';
+    content: counter(product-types) ". ";
 }
 
 product-type:hover,
@@ -210,31 +210,31 @@ product:first-of-type > ::before {
 }
 
 product:first-of-type name::before {
-    content: 'Name';
+    content: "Name";
 }
 product:first-of-type price::before {
-    content: 'Price';
+    content: "Price";
 }
 product:first-of-type release-date::before {
-    content: 'Release date';
+    content: "Release date";
 }
 product:first-of-type warranty::before {
-    content: 'Warranty';
+    content: "Warranty";
 }
 product:first-of-type specification::before {
-    content: 'Specification';
+    content: "Specification";
 }
 product:first-of-type user-rating::before {
-    content: 'User rating';
+    content: "User rating";
 }
 product:first-of-type in-stock::before {
-    content: 'In stock';
+    content: "In stock";
 }
 product:first-of-type free-delivery::before {
-    content: 'Free delivery';
+    content: "Free delivery";
 }
 product:first-of-type additional-information::before {
-    content: 'Additional information';
+    content: "Additional information";
 }
 
 product:hover {
@@ -253,7 +253,7 @@ product price::after {
 
 product release-date day::after,
 product release-date month::after {
-    content: '.';
+    content: ".";
 }
 
 product warranty::after {
@@ -263,7 +263,9 @@ product warranty::after {
 }
 
 product specification {
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     align-items: center;
 }
 
@@ -276,16 +278,8 @@ product additional-information {
     font-size: 0.9em;
 }
 
-product specification > * {
-    flex: 1.2;
-}
-
-product specification weight {
-    flex: 1;
-}
-
 product specification weight::before {
-    content: 'Weight: ';
+    content: "Weight: ";
 }
 
 product specification weight::after {
@@ -293,7 +287,7 @@ product specification weight::after {
 }
 
 product specification display-size::before {
-    content: 'Display size: ';
+    content: "Display size: ";
 }
 
 product specification display-size::after {
@@ -303,7 +297,7 @@ product specification display-size::after {
 }
 
 product specification color::before {
-    content: 'Color: ';
+    content: "Color: ";
 }
 
 product specification color::after {
@@ -311,11 +305,11 @@ product specification color::after {
 }
 
 product specification switch::before {
-    content: 'Switch: ';
+    content: "Switch: ";
 }
 
 product specification sensor::before {
-    content: 'Sensor: ';
+    content: "Sensor: ";
 }
 
 product free-delivery::after {
@@ -323,33 +317,54 @@ product free-delivery::after {
     text-transform: capitalize;
 }
 
-product free-delivery[available='available'] {
+product free-delivery[available="available"] {
     background-color: rgba(101, 255, 101, 0.4);
 }
 
-product free-delivery[available='non-available'] {
+product free-delivery[available="non-available"] {
     background-color: rgba(255, 101, 101, 0.4);
 }
 
 /* Modifiers */
-[title]::before {
+document-information::before,
+manufacturers::before,
+product-types::before,
+products-list::before {
     position: absolute;
     top: 0;
     left: 2px;
-    content: attr(title);
     font-weight: 400;
     font-size: 1.6rem;
     align-self: flex-start;
 }
 
+document-information::before {
+    content: "Document information";
+}
+manufacturers::before {
+    content: "Manufacturers";
+}
+product-types::before {
+    content: "Product types";
+}
+products-list::before {
+    content: "Products list";
+}
+
 @media (min-width: 1920px) {
-    [title]::before {
+    document-information::before,
+    manufacturers::before,
+    product-types::before,
+    products-list::before {
         font-size: 2.1rem;
         font-weight: 200;
     }
 }
 
-[class='main-box'] {
+document-information,
+manufacturers,
+product-types,
+products-list {
     background: #f3f3f3;
     box-shadow: 0 6px 15px #373737;
     border-radius: 2px;
