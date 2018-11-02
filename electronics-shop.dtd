@@ -1,9 +1,7 @@
 <!ELEMENT electronics-shop (document-information, data)>
 
 <!ELEMENT document-information (author+, description)>
-<!ATTLIST document-information class CDATA #FIXED "main-box"
-                                     title CDATA #FIXED "Document information"
-        >
+
 <!ELEMENT author (first-name, last-name, student-id)>
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT last-name (#PCDATA)>
@@ -14,9 +12,7 @@
 
 <!ELEMENT categories (manufacturers, product-types)>
 <!ELEMENT manufacturers (manufacturer+)>
-<!ATTLIST manufacturers class CDATA #FIXED "main-box"
-        title CATA #FIXED "Manufacturers"
-        >
+
 <!ELEMENT manufacturer (manufacturer-name, headquarters, factory)>
 <!ATTLIST manufacturer manufacturer-id ID #REQUIRED>
 <!ELEMENT manufacturer-name (#PCDATA)>
@@ -26,16 +22,12 @@
 <!ELEMENT factory (#PCDATA)>
 
 <!ELEMENT product-types (product-type+)>
-<!ATTLIST product-types class CDATA #FIXED "main-box"
-                        title CATA #FIXED "Product types"
-        >
+
 <!ELEMENT product-type (#PCDATA)>
 <!ATTLIST product-type category-id ID #REQUIRED>
 
 <!ELEMENT products-list (product+)>
-<!ATTLIST products-list class CDATA #FIXED "main-box"
-                        title CATA #FIXED "Products list"
-        >
+
 <!ELEMENT product (name, price, release-date, warranty, specification, user-rating, in-stock, free-delivery, additional-information*)>
 <!ATTLIST product product-id ID #REQUIRED>
 <!ATTLIST product category-id IDREF #REQUIRED>
@@ -43,7 +35,7 @@
 
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
-<!ATTLIST price currency CDATA #FIXED "pln">
+<!ATTLIST price currency (pln | usd | czk | gbp) "pln">
 <!ATTLIST price on-sale CDATA #REQUIRED>
 <!ELEMENT release-date (day, month, year)>
 <!ELEMENT day (#PCDATA)>
@@ -53,7 +45,7 @@
 <!ATTLIST warranty time-unit CDATA #FIXED "years">
 <!ELEMENT specification (weight, display-size*, color, switch*, sensor*)>
 <!ELEMENT weight (#PCDATA)>
-<!ATTLIST weight weight-unit CDATA #FIXED "g">
+<!ATTLIST weight weight-unit CDATA (g | kg | pounds) "g">
 <!ELEMENT display-size (#PCDATA)>
 <!ATTLIST display-size display_size-unit CDATA #REQUIRED>
 <!ELEMENT color (#PCDATA)>
