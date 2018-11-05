@@ -8,7 +8,7 @@
 <!ELEMENT student-id (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
 
-<!ELEMENT data (categories, products-list)
+<!ELEMENT data (categories, products-list)>
 
 <!ELEMENT categories (manufacturers, product-types)>
 <!ELEMENT manufacturers (manufacturer+)>
@@ -45,7 +45,7 @@
 <!ATTLIST warranty time-unit CDATA #FIXED "years">
 <!ELEMENT specification (weight, display-size*, color, switch*, sensor*)>
 <!ELEMENT weight (#PCDATA)>
-<!ATTLIST weight weight-unit CDATA (g | kg | pounds) "g">
+<!ATTLIST weight weight-unit (g | kg | pounds) "g">
 <!ELEMENT display-size (#PCDATA)>
 <!ATTLIST display-size display_size-unit CDATA #REQUIRED>
 <!ELEMENT color (#PCDATA)>
